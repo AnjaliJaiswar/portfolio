@@ -1,0 +1,148 @@
+body{
+              background-color: rgba(255, 255, 138, 0.893);
+}
+
+*{
+              box-sizing: border-box;
+}
+
+/* navigation bar  */
+.navigation{
+              background-color:rgb(230, 252, 118) ;
+              position: fixed;
+              overflow: hidden;
+              top: 0;
+              left: 0;
+              right: 0;
+              z-index: 1;
+}
+.nav{
+              padding: 3px;
+
+}
+ .nav a:hover {
+               background: rgb(191, 202, 137);
+               border-radius: 5px;
+               opacity: 0.8;
+ }
+
+ /* introduction  */
+.intro{
+              color: white;
+              background-image:url(./img/Programming-Laptop.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              opacity: 0.9;
+              height: 660px;
+              width: 100% ;
+              
+}
+.intro h1{
+              color: white;
+}
+.introPara{
+              font-family: 'Caveat', cursive;
+}
+.sameIntro{
+              display: flex;
+              justify-content: center;
+              position: relative;
+              top: 45%;
+              line-height: 0.7;
+}
+/* about me  */
+#aboutme img{
+              border-radius: 50%;
+              height: 350px;
+              width: 350px;
+}
+@media screen and (max-width:900px){
+              #aboutme img{
+                            display: block;
+                            margin-left: 20%;
+              }
+              
+}
+
+/* Projects  */
+#projects h2{
+              text-align: center;
+              
+}
+
+.p1{
+              text-decoration: none;
+              text-align: center;
+              border: 4px solid black ;
+}
+.p1 p{
+              font-size: large;
+              color: black;
+}
+
+/* contactme  */
+#contactme h2{
+              text-align: center;
+              margin-bottom: 30px;
+}
+.email{
+              width: 500px;
+}
+.message{
+              width: 500px;
+}
+.firstcol .btn{
+              background-color: white;
+              border: 1px solid #dee2e6;
+              color: black ;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+}
+
+@media screen and (max-width:1190px) {
+              .email{
+                            width: 300px;
+              }
+              .message{
+                            width: 300px;
+              }
+}
+.socialmedia h5 {
+              padding: 10px;
+              border: 1px solid #dee2e6;
+              background-color: wheat;
+              border-radius: 10px;
+}
+
+.socialmedia{
+              /* border: 2px solid black;  */
+              text-align: center;
+              padding: 30px;
+}
+.socialone{
+              /* border: 10px solid gr    een; */
+}
+.socialimg{
+              background-color: white;
+              border: 1px solid #dee2e6;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 40px;
+              height:40px;
+
+
+}
+
+/* footer  */
+.footer{
+              background: #625b5b;
+              color: white;
+              text-align: center;
+              margin: -17px -12px -17px -12px;
+              font-size: small;
+}
+.para p{
+              padding:10px ;
+}
